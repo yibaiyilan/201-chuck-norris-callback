@@ -20,7 +20,7 @@ app.title='Minions!'
 ####### Layout of the app ########
 app.layout = html.Div([
     html.H2(heading1),
-    html.Img(id='your-image-output', src=app.get_asset_url(list_of_images[0]), style={'width': 'auto', 'height': '10%'}),
+    html.Img(id='your-image-output', src=image1, style={'width': 'auto', 'height': '10%'}),
     dcc.Dropdown(id='your-input-here',
                 options=[{'label': i, 'value': i} for i in list_of_choices],
                 value='punch',
