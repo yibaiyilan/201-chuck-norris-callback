@@ -21,9 +21,9 @@ app.title='Minions!'
 app.layout = html.Div([
     html.H2(heading1),
     html.Img(id='your-image-output', src=app.get_asset_url(image1), style={'width': 'auto', 'height': '10%'}),
-    dcc.Dropdown(id='your-input-here',
-                options=[{'label': i, 'value': i} for i in list_of_choices],
-                value='punch',
+	    dcc.Dropdown(id='your-input-here',	
+                options=[{'label': list_of_choices[i], 'value': i} for i in range(len(list_of_choices))],	
+                value=list_of_choices[0],	
                 style={'width': '500px'}),
     html.Br(),
     html.Div(id='your-output-here', children=''),
