@@ -7,7 +7,7 @@ import os
 ###### Set up variables
 list_of_choices=['banana', 'hug', 'kiss']
 list_of_images=['banana-minions.gif', 'hug-minions.gif','kiss-minions.gif']
-githublink = 'https://github.com/austinlasseter/chuck_norris_execution'
+githublink = 'https://github.com/yibaiyilan/201-chuck-norris-callback'
 image1='minions.jpg'
 heading1='What will A Monion Give You?'
 
